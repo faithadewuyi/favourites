@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favourites</title>
+  <!-- Custom css -->
+  <link href="styles.css" rel="stylesheet">
+ 
+  <!-- font Awesome icon Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <!-- Google font -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&family=Smythe&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+  
+    <div class="container">
+      <div class="top-time">
+      <p><span id="currentTime"></span></p>
+      <p><span id="currentDay"></span></p>
+      </div>
+          
+    <nav>
+    <ul class="links">
+      <li><a href="#home">Home</a></li>
+       <li><a href="#books"> Books</a></li> 
+      <li><a href="#foods"> Foods</a></li>
+      <li><a href="#movies"> Movies</a></li>
+     
+      
+  </ul>
+   </nav>
+  </div>
+   
+  </header>
+ 
+ <main>
+  <section id="home ">
+    <h2>Favourite Things About Me</h2>
+    <div class="typing-text" id="typingText"></div>
+     
+  <div class="favourite"> 
+    <h2>Frontend Technologies I love</h2>
+  <div class="technologies">
+    <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+    <ul class="tabs-box">
+      <li class="tab active">HTML</li>
+      <li class="tab">CSS</li>
+      <li class="tab">JavaScript</li>
+      <li class="tab">TailwindCSS</li>
+      <li class="tab">React.js</li>
+      <li class="tab">Git and Version Control</li>
+      <li class="tab">Framer-Motion</li>
+      <li class="tab">Responsive Design</li>
+      <li class="tab">Accessibility</li>
+      <li class="tab">Performance Optimization</li>
+    </ul>
+    <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+   </div>
+</div>
+</section>
+  <section id="projects" >
+    <h2>Some of My Projects</h2>
+    <p class="intro">Check out some of my projects that showcase my skills and passion as a frontend developer. From interactive web applications to responsive websites, each project reflects my dedication to creating user-friendly and visually appealing experiences. Dive in and discover how I bring ideas to life through code.</p>
+
+    <div class="projectsContainer" id="projectsContainer"></div>
+  </section>
+  <section id="foods">
+    <h2>My Favourite Foods</h2>
+    <div id="foodCards" class="food-container"></div>
+  </section>
+  <section id="movies">
+    <h2>Favourite Movies</h2>
+  <div id="movie" class="movie-container">
+    
+  </div>
+  </section>
+  
+</main>
+<footer id="links">
+  
+  <div id ="randomFacts" class="random-fact"></div>
+  <ul>
+    <li>
+      <a href="https://github.com/faithadewuyi" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/faith-adewuyi-64923542/"  target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i> 
+      </a>
+    </li>
+    <li>
+      <a href="https://x.com/adewuyi_faith"  target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  </ul>
+  <p>&copy; 2024 Faith Adewuyi. All rights reserved.</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
